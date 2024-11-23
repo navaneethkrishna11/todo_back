@@ -9,6 +9,7 @@ app.use(cors());
 ////////////////////////////////////////////////
 
 mongoose.connect('mongodb+srv://navaneethkrishna11:navaneethkrishna7711@cluster0.g2uufai.mongodb.net/',)
+
 .then(()=>{
     console.log("MongoDB is connected")
 })
